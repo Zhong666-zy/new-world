@@ -1,0 +1,9 @@
+首先打开项目所在仓库
+使用vc的功能将新建项目加入到.git隐藏文件中
+        也就是加入到仓库里
+        先是点加号加入到暂存区
+        然后在输入注释，用ctrl+enter提交
+然后是建立与远程仓库的链接
+一是添加远程仓库git remote add origin https://github.com/Zhong666-zy/new-world.git
+二是本地仓库改名git branch -M main
+三是上传代码 git push -u origin main
